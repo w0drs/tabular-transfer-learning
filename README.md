@@ -143,6 +143,27 @@ AP = 0.20 против 0.5155 - гипотеза полностью подтве
 
 Для задачи предсказания депозита в Bank Marketing классические методы остаются предпочтительными. Transfer Learning в данной постановке неэффективен из-за несовместимости данных.
 
+---
+
+## Воспроизводимость эксперимента
+
+### Код
+
+Все эксперименты реализованы в Jupyter Notebook и доступны в этой репозитории.
+
+### Данные
+
+- **Adult Census** - [ссылка](https://www.kaggle.com/datasets/sagnikpatra/uci-adult-census-data-dataset)
+- **Bank Marketing** - [ссылка](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+
+### Запуск
+
+1. Установить зависимости:  
+   `pip install -r requirements.txt`
+2. Запустить ноутбук:  
+   `jupyter notebook Research.ipynb`
+3. Выполнить ячейки последовательно.
+
 
 
 
